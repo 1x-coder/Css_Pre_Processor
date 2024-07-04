@@ -1,0 +1,28 @@
+ //* extends key word in sass
+h1 {
+
+     @extend %common;
+     background-color: aqua;
+}
+
+p {
+     @extend %common;
+     background-color: black;
+     padding: 20 + px;
+}
+
+%common {
+     font-size: larger;
+     color: rgb(125, 125, 241)
+}
+
+//* interplusion in sass
+
+@mixin common ($b, $c){
+     padding: $b;
+     border: 2px solid $c;
+}
+
+#header-code {
+     @include common(30px,red)
+}

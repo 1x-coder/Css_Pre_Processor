@@ -1,0 +1,51 @@
+@function myhome($val) {
+     @return $val + 100px;
+}
+
+p{
+    //* normal function
+     // margin: myhome(30px);
+
+     //* using abs in function to covert negative value into positive
+      //margin: abs(-30px);
+
+     //* using cell to covert points value into upper level
+     //margin: ceil(89.67);
+
+     //* using floor to covert points level value into lower leve;
+     //margin: floor(67.22px);
+
+     //* using max in class to have find lager value betwwen three to four number
+      //margin: max(34,35,77);
+
+     //* using max in class to have find smaller value betwwen three to four number
+      //margin: min(34,35,77);
+
+      //* using percentage to covert number value into percentage
+      //margin: percentage(67.8);
+
+      //* using Radom to any number put actomaticlly in marigin width height etc
+      //margin: Radom();
+
+      //* using Round to Roundoff any number that are put in value
+      //margin: Round(11.22);
+
+      //* using compperable to compare between three two and three value and answer is alaways in true and false value
+     //margin: comparable( 34mm, 54cm )
+
+     //* using unit to show the unit of the given value
+     //margin: unit(11cm);
+     
+     //* using untiless to define this value have any unit ansswer is in the form of boolen value
+      margin: unitless(11.22);
+
+
+     //  Map Functions
+     //  selector Function
+     //  color Function 
+     //  interspontion Fuction;
+     //  array Function;
+     //  List  Function;
+
+
+}

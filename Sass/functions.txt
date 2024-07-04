@@ -1,0 +1,22 @@
+1 Number Function 
+
+2 String function
+
+str-length 
+str-index,
+str-insert, 
+to-upper-case,
+to-lower-case, 
+str-slice, 
+quotes, 
+unquotes, 
+unique-id
+
+3 color function
+
+darken,
+lighten,
+saturate,
+desaturate,
+adjust-hue, 
+transparentize

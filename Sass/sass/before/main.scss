@@ -1,0 +1,17 @@
+*{ margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif; }
+
+@import 'mixins';
+@import 'variables';
+
+header{ @include headercode(#222f3e, #feca57);
+
+ h1{ @include commoncode;
+  &:hover{ color: $hovercolor; }
+
+  &::after{ content: " Family " }
+ } 
+
+ p{ @include commoncode; }
+}
+
+.secheader{ @include headercode(#10ac84, #fff);  }

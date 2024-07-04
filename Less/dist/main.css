@@ -1,0 +1,16 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.btn {
+  color: #576574;
+  width: 20vh;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+}
+.btn:hover {
+  background-color: #000000;
+}
